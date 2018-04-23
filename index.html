@@ -21,17 +21,17 @@
 	
 </head>
 
-  <body>
+  <body ng-app="myGallery">
 	  
-    <div class="header">
+    <div  ng-app="HomeController" class="header">
 	    
-      <div class="container">
+      <div  ng-app="HomeController" class="container">
         <h1 id="app_title">%title%</h1>
       </div>
       
     </div>
 
-    <div class="main">
+    <div ng-controller="HomeController" class="main">
       
       <div class="container">
 
@@ -58,7 +58,7 @@
     </div>
 
     <div class="footer">
-      <div class="container">
+      <div ng-controller= "HomeController" class="container">
 		<a id="github" class="btn btn-lg btn-warning">
 			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> %owner% %github%
   		</a>
