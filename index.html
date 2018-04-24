@@ -45,11 +45,11 @@
 					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 					<p class="runtime">Runtime: {{movie.runtime}}</p> 
 					<p class="released">Released: {{movie.released | date}} | Rated: {{movie.rating}}</p>
-					<p class="websites">Websites: <a>{{imdb}}</a> | <a>{{website}}</a></p>
+					<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movie.website}} Official</a></p>
 					
 		            <div class="social">
-		              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{like}}</p>
-		              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{dislike}}</p>
+		              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
+		              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{movie.dislike}}</p>
 		            </div>
             </div> 
         </div>
