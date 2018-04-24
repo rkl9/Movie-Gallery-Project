@@ -38,11 +38,11 @@
         <div class="col-md-6"> 
             <div class="thumbnail">
 
-					<img class="poster" />
-					<div class="imageInfo">{{posterindex}}</div>
+					<img class="poster" ng-src = "{{ movie.posters[movie.posterindex] }}" />
+					<div class="imageInfo">{{movie.posterindex}}</div>
 					
-					<p class="title">{{title}} ({{country}})</p> 
-					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> %iscore% </p>
+					<p class="title">{{movie.title}} ({{movie.country}})</p> 
+					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 					<p class="runtime">Runtime: {{runtime}}</p> 
 					<p class="released">Released: {{released}} | Rated: {{rating}}</p>
 					<p class="websites">Websites: <a>{{imdb}}</a> | <a>{{website}}</a></p>
