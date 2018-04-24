@@ -103,7 +103,9 @@ app.controller('HomeController', ['$scope', function($scope) {
 	$scope.github = "https://github.com/rkl9/myProject-p3";
 
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
-		
+	$scope.like = function(index){
+		$scope.movies[index].likes++;
+	};	
 	
 	
 	
