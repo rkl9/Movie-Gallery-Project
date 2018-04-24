@@ -88,7 +88,24 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+	
+	 { 
+      title:	'P2', 
+      iscore:	9.7,
+      rating:	'R',
+      runtime:	98,
+      released:	new Date('2007', '10', '09'),
+      country:	'USA',
+      posters:	['img/P2.jpg', 'img/P2-2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt0804516/?ref_=fn_al_tt_1',
+      website:	'http://www.p2themovie.com/',
+      likes:	166,
+      dislikes:	100,
+      posterindex: 0
+	},
+	
+    
 	
 	
   ];
