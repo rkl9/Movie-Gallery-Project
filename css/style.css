@@ -110,12 +110,13 @@ body {
 }
 
 .likes {
-	
-	
+	background-color: #008700;
+	transition: width 500ms, height 500ms; 
 }
 
 .dislikes{
-	
+	background-color: #f65a5b;
+	transition: width 500ms, height 500ms; 
 }
 
 /* This makes sure your Github Button is centered */
