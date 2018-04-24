@@ -122,7 +122,16 @@ app.controller('HomeController', ['$scope', function($scope) {
 	};
 	
 	
-	
+	$scope.timeText = function (minutes){
+		var hours = Math.floor(minutes / 60);
+		
+		var minute = minutes % 60;
+		
+		var movieTime = hours + "h " + minute + "m";
+		
+		return movieTime;
+		
+	};
 	
 	
 	
