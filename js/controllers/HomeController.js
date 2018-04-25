@@ -120,6 +120,21 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
 	},    
 	
+	{ 
+      title:	'Winchester', 
+      iscore:	5.4,
+      rating:	'PG-13',
+      runtime:	99,
+      released:	new Date('2018', '02', '02'),
+      country:	'USA',
+      posters:	['img/Winchester.jpg', 'img/Winchester2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt1072748/',
+      website:	'https://www.winchestermovie.com/',
+      likes:	50,
+      dislikes:	300,
+      posterindex: 0
+	}
+	
 	
   ];
 	
