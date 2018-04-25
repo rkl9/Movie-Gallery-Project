@@ -107,11 +107,12 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background 500ms;
 	color: #ffffff;
-	transition: width 500ms, height 500ms; 
+	
 }
 
 .likes {
 	background-color: #008700;
+	
 	
 }
 
