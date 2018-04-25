@@ -105,7 +105,20 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
 	},
 	
-    
+	{ 
+      title:	'Dumber and Dumber To', 
+      iscore:	5.6,
+      rating:	'PG-13',
+      runtime:	109,
+      released:	new Date('2014', '11', '14'),
+      country:	'USA',
+      posters:	['img/index.jpg', 'img/index2.jpg'],
+      imdb:		'https://www.imdb.com/title/tt2096672/',
+      website:	'https://www.uphe.com/movies/dumb-and-dumber-to',
+      likes:	200,
+      dislikes:	50,
+      posterindex: 0
+	},    
 	
 	
   ];
